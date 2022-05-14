@@ -6,7 +6,7 @@ I aim to learn how to build a **Nuxt 3** web app through creating this project.
 
 ## 🤖 Technologies
 - Nuxt 3
-- Typescript
+- TypeScript
 
 ## 🔨 Usage
 ```bash
