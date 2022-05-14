@@ -3,8 +3,7 @@
 
     <Head>
       <Title>Wordle</Title>
-      <!-- <Link rel="icon" href="./public/favicon.ico" /> -->
-      <Link rel="icon" href="/favicon.ico" />
+      <Link rel="icon" href="./public/favicon.ico" />
       <Meta name="description" content="A Wordle Clone" />
       <Meta name="author" content="Nyx Iskandar" />
     </Head>
