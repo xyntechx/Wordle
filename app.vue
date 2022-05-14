@@ -3,7 +3,6 @@
 
     <Head>
       <Title>Wordle</Title>
-      <!-- <Link rel="icon" href="./public/favicon.ico" /> -->
       <Link rel="icon" href="/favicon.ico" />
       <Meta name="description" content="A Wordle Clone" />
       <Meta name="author" content="Nyx Iskandar" />
@@ -21,5 +20,7 @@ html,
 body {
   font-family: 'Inter', sans-serif;
   background-color: #001F27;
+  padding: 0;
+  margin: 0;
 }
 </style>
