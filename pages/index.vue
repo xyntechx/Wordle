@@ -5,20 +5,12 @@
         </h1>
         <p class="text">5 Letters at a Time</p>
         <NuxtLink to="/play" class="button">Play</NuxtLink>
-        <footer class="acknowledgements">
-            <sub>|</sub>
-            <sub>Thank you
-                <a href="https://www.kaggle.com/datasets/shamiljamion/wordle-answers" target="_blank"
-                    class="link-sub">shamiljamion</a>
-                for the list of words
-            </sub>
-            <sub>|</sub>
+        <footer class="creds">
             <sub>Play the official Wordle game
                 <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" class="link-sub">
                     here
                 </a>
             </sub>
-            <sub>|</sub>
         </footer>
     </main>
 </template>
@@ -47,20 +39,11 @@
     margin: 0 1rem;
 }
 
-.acknowledgements {
+.creds {
     margin: 0 1rem;
     position: fixed;
     bottom: 10px;
     color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    column-gap: 2rem;
-    z-index: 1;
-}
-
-.acknowledgements sub {
     font-size: 1rem;
     text-align: center;
 }
@@ -102,15 +85,12 @@
         font-size: 2rem;
     }
 
-    .text {
+    .text,
+    .button {
         font-size: 1rem;
     }
 
-    .acknowledgements {
-        column-gap: 0.5rem;
-    }
-
-    .acknowledgements sub {
+    .creds {
         font-size: 0.5rem;
     }
 }
