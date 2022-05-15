@@ -2,7 +2,7 @@
   <main>
 
     <Head>
-      <Title>Wordle</Title>
+      <Title>xyntechx's Wordle Clone</Title>
       <Link rel="icon" href="/favicon.ico" />
       <Meta name="description" content="A Wordle Clone" />
       <Meta name="author" content="Nyx Iskandar" />
